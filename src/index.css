@@ -139,6 +139,9 @@ section{
 header img{
   display: none;
 }
+.logo{
+  display: flex;
+}
 .listatipos{
   
   background-color: black;
@@ -147,6 +150,9 @@ header img{
   width: 100%;
 }
 @media (max-width:500px) {
+  .logo{
+    display: none;
+  }
   body{
     display: flex;
     flex-wrap:wrap;

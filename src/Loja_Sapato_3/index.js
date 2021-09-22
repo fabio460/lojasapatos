@@ -5,6 +5,7 @@ import Modal from './modal';
 import ModalFinalizar from './modalFinalizar';
 import Sapato from './sapato';
 import iconeMobile from './3barras_fundo_p.png';
+import logo from './logo.png';
 function LojaSapato3(){
    const [idObjeto,setidObjeto]=useState();
    const [nulo,setNulo]=useState(false);
@@ -117,7 +118,9 @@ function LojaSapato3(){
    return<>
    <header>
       <img onClick={mostrarHeader} src={iconeMobile} alt=''/>
+      <a href='https://fabio460.github.io/Portifolio/' target='_blank' rel='noreferrer'><img className='logo' src={logo} alt=''/></a>
       <div className='listatipos'>
+         
          <div id='g' onClick={filtrar}>geral</div>
          <div id='0' onClick={filtrar}>sapato feminino</div>
          <div id='1' onClick={filtrar}>social mascolino</div>
