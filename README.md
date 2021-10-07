@@ -4,3 +4,4 @@ Foi criado uma lista para simular uma API, contendo as informações dos produto
 O objeto e selecionado da lista, tratado e depois carregado em outra lista (do carrinho de compras) 
 A lista inicial não e alterada, ela e tratada em uma nova.
 Link do projeto em https://lojasapatos.vercel.app/
+Tecnologias: React.js com Hooks, CSS, HTML e javascript
